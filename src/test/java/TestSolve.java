@@ -1,6 +1,5 @@
 import junit.Equation;
 import org.junit.Assert;
-import org.junit.Assert.*;
 import org.junit.Test;
 
 
@@ -13,9 +12,9 @@ public class TestSolve {
         Equation equation = new Equation();
 
         double[] result = equation.solve(1, -3, 5);
-        double[] expectedResult = {-1, 4};
+        double[] expectedResult = {-1, 5};
 
-        Assert.assertArrayEquals(expectedResult, result, 5);
+        Assert.assertArrayEquals(expectedResult, result, 0.01);
 
 
     }
