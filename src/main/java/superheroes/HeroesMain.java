@@ -29,12 +29,12 @@ public class HeroesMain {
             HeroesSquad heroesSquad2 = gsonParser.parserGson();
             LOGGER.info("rename file name");
             Thread.sleep(1000);
-            System.out.println("New Name Squad (GSON): " + heroesSquad2.toString());
             LOGGER.info("print new name from Gson");
+            System.out.println("New Name Squad (GSON): " + heroesSquad2.toString());
             Thread.sleep(1000);
 
-        } catch (Exception e) {
-            LOGGER.warning("file not found");
+        } catch (Throwable e) {
+            LOGGER.throwing(HeroesMain.class.getSimpleName(), "main", e);
         }
         LOGGER.info("program stopped to work");
 
