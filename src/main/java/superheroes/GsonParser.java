@@ -2,7 +2,9 @@ package superheroes;
 
 import com.google.gson.Gson;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class GsonParser {
     public HeroesSquad parserGson() {
@@ -13,7 +15,7 @@ public class GsonParser {
             heroesSquad.setSquadName("NEW_" + heroesSquad.getSquadName());
             heroesSquad.setHomeTown("NEW_" + heroesSquad.getHomeTown());
             return heroesSquad;
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
