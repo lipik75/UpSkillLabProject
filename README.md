@@ -16,9 +16,7 @@
 
 > Then it should rename each file adding a suffix from the config to its name;
 
-> It should print the results of the renaming like:
-
-> old_name -> new_name
+> It should print the results of the renaming like: old_name -> new_name;
 
       Steps:
 
