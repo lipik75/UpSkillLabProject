@@ -10,10 +10,15 @@
 
 > Ensure that method works fine in general cases:
 >> two existing roots;
+>> 
 >> one exiting root;
+>> 
 >> no roots;
+>> 
 >> Ensure method works correctly if some of coefficients equal zero;
+>> 
 >> Ensure method works correctly in special cases (like when all coefficients are zeros);
+>> 
 >> Hint;
 
 > Quadratic formula reference
