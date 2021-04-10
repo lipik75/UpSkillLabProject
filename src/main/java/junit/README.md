@@ -26,4 +26,5 @@
       Steps;
 
 > Complete the method;
+> 
 > Complete the tests (Tests may go first - TDD);
