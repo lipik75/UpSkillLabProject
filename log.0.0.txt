@@ -1,0 +1,46 @@
+апр. 29, 2021 6:01:50 PM logging.LoggerMain main
+INFO: Начало main, создаем лист с типизацией Integers
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+INFO: присваиваем лист Integers листу без типипзации
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+INFO: присваиваем лист без типипзации листу строк
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+WARNING: добавляем строку "бла бла" в наш переприсвоенный лист, возможна ошибка
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+WARNING: добавляем строку "бла 23" в наш переприсвоенный лист, возможна ошибка
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+WARNING: добавляем строку "бла 34" в наш переприсвоенный лист, возможна ошибка
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+INFO: выводим все элементы листа с типизацией Integers в консоль
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+INFO: Размер равен 3
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+INFO: Получим первый элемент
+апр. 29, 2021 6:01:51 PM logging.LoggerMain main
+WARNING: что-то пошло не так
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Integer (java.lang.String and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at logging.LoggerMain.main(LoggerMain.java:43)
+
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+INFO: Начало main, создаем лист с типизацией Integers
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+INFO: присваиваем лист Integers листу без типипзации
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+INFO: присваиваем лист без типипзации листу строк
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+WARNING: добавляем строку "бла бла" в наш переприсвоенный лист, возможна ошибка
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+WARNING: добавляем строку "бла 23" в наш переприсвоенный лист, возможна ошибка
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+WARNING: добавляем строку "бла 34" в наш переприсвоенный лист, возможна ошибка
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+INFO: выводим все элементы листа с типизацией Integers в консоль
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+INFO: Размер равен 3
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+INFO: Получим первый элемент
+апр. 29, 2021 6:05:20 PM logging.LoggerMain main
+WARNING: что-то пошло не так
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Integer (java.lang.String and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at logging.LoggerMain.main(LoggerMain.java:43)
+

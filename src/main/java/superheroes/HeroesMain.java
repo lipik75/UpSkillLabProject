@@ -16,7 +16,7 @@ public class HeroesMain {
             LOGGER.info("created list Squad.json");
             Thread.sleep(1000);
             System.out.println("New Name Squad: " + heroesSquad1.toString());
-            LOGGER.info("print lst Squad");
+            LOGGER.info("print list Squad");
             Thread.sleep(1000);
 
             System.out.println("-------------------------------------------------------------");
