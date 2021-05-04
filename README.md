@@ -18,5 +18,7 @@
 > [GSON - SuffixingApp Structured Logging Specification](https://github.com/lipik75/JsonProject/tree/master/src/main/java/person);
 >
    XML
->[xml parser (DOM)](https://github.com/lipik75/JsonProject/tree/master/src/main/java/xml);
+>>[xml parser (DOM)](https://github.com/lipik75/UpSkillLabProject/tree/master/src/main/java/xml/dom);
+>
+>>[xml parser (SAX)](https://github.com/lipik75/UpSkillLabProject/tree/master/src/main/java/xml/sax);
 >
