@@ -16,7 +16,8 @@
             <Genre>Fantasy</Genre>
             <Price>5.95</Price>
             <PublishDate>2000-12-16</PublishDate>
-            <Description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</Description>
+            <Description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to
+                become queen of the world.</Description>
         </element>
     </book>
 </catalog>

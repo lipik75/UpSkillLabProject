@@ -1,8 +1,10 @@
-package xml;
+package xml.dom;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import xml.Book;
+import xml.CatalogBook;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
@@ -12,7 +14,7 @@ import java.util.List;
 /*
 parser XML with DOM
  */
-public class Main {
+public class DomParser {
 
     public static void main(String[] args) {
         CatalogBook catalogBook = new CatalogBook();
