@@ -34,6 +34,6 @@ public class Heroes {
         return  "\n" + "name = '" + name + '\'' + "\n" +
                 "age = " + age + "\n" +
                 "secretIdentity = '" + secretIdentity + '\'' + "\n" +
-                "power = '" + power + '\'' + '}' + "\n" + "=========================";
+                "power = '" + power + '\'' + '}' + "\n" + "==========================";
     }
 }
