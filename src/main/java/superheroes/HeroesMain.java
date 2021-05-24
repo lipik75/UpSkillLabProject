@@ -3,6 +3,7 @@ package superheroes;
 import java.util.logging.Logger;
 
 public class HeroesMain {
+
     private static final Logger LOGGER = Logger.getLogger(HeroesMain.class.getSimpleName());
 
     public static void main(String[] args) {

@@ -8,7 +8,6 @@ import java.io.IOException;
 
 public class GsonParser {
     public HeroesSquad parserGson() {
-
         Gson gson = new Gson();
         try (FileReader reader = new FileReader("superHeroes.json")) {
             HeroesSquad heroesSquad = gson.fromJson(reader, HeroesSquad.class);
@@ -18,8 +17,6 @@ public class GsonParser {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
         return null;
     }
 }

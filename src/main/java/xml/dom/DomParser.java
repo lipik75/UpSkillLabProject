@@ -14,6 +14,7 @@ import java.util.List;
 /*
 parser XML with DOM
  */
+
 public class DomParser {
 
     public static void main(String[] args) {

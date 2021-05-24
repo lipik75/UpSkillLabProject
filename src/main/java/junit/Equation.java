@@ -25,8 +25,6 @@ public class Equation {
         } else {
             System.out.println("Error: division by zero.");
         }
-        System.out.println("Finish...");
-
         return results;
     }
 }

@@ -7,6 +7,9 @@ import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
+/**
+ * Logger example
+ */
 public class LoggerMain {
     static Logger LOGGER;
     static {

@@ -1,7 +1,5 @@
 package xml;
 
-import java.util.Date;
-
 public class Book {
     private String author;
     private String title;
