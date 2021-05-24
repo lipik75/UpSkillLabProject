@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * GSON
+ */
 public class PersonMain {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 

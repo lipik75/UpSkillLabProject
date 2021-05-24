@@ -27,3 +27,4 @@
 > Write the code implementing the app specification;
 
 > Configure maven project to build a runnable jar containing application and its dependencies.
+>

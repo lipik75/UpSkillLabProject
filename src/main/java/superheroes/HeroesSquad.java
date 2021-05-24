@@ -3,6 +3,7 @@ package superheroes;
 import java.util.List;
 
 public class HeroesSquad {
+
     private String squadName;
     private String homeTown;
     private List<Heroes> members;
@@ -33,7 +34,7 @@ public class HeroesSquad {
 
     @Override
     public String toString() {
-        return  "\n" + "squadName -> " + squadName + "\n" +
+        return "\n" + "squadName -> " + squadName + "\n" +
                 "homeTown -> " + homeTown + "\n" +
                 "MEMBERS: " + members;
     }

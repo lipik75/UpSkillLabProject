@@ -3,6 +3,7 @@ package xml;
 import java.util.List;
 
 public class CatalogBook {
+
     private String name;
     private List<Book> books;
 

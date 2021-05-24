@@ -27,7 +27,7 @@
     },
     {
       "name": "Eternal Flame",
-      "age": 1000000,
+      "age": 10000000,
       "secretIdentity": "Unknown",
       "powers": [
         "Immortality",

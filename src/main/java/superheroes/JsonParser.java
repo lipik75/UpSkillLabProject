@@ -7,6 +7,9 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Json Parser
+ */
 
 public class JsonParser {
     HeroesSquad squad = new HeroesSquad();
